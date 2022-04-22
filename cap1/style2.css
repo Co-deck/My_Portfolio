@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Grechen+Fuemen&family=Rosario:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+
+
+
+
+/*footer*/
+.footer{
+
+	align-items: center;
+	display: inline-block;
+	color: white;
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(45deg, #1a2626,#29443b,#074d66,#4a8da7,#c3dbe7);
+	background-size: cover;
+/*	animation: bg-animation 30s infinite;*/
+}
+
+.footer:hover,
+.footer:focus {
+	background-position: left;
+}
+
+/*@keyframes bg-animation {
+	0%{background-position: left;}
+	50%{background-position: right;}
+	100%{background-position: left;}
+}
+*/
+
+.footer-info img{
+	margin-top: 20px;
+	border-radius: 50%;
+	border: 5px antiquewhite;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-info h1{
+	color: ghostwhite;
+	text-align: center;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px #000000;
+}	
+.footer ~ p{
+	font-size: 10px;
+}
+.footer-info p,
+.footer-info address,
+.footer-info a {
+	font-size: 150%;
+	font-family: 'Teko',sans-serif;
+	color: rgba(255, 255, 255, .5);
+	text-shadow: 2px 2px 4px #000000;
+}
+
+ /*projects*/
+
+.project{
+	color: #c69963;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
+				url("C:/Users/V/Documents/BATCH176/Capstone/img/17109_1.jpg") center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+.project h2 {
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+	font-family: Arvo;
+}
+
+.project section {
+	align-items: center;
+	margin: auto;
+
+}
+
+.pr{
+	font-family: 'Cormorant Garamond', serif;
+	display: inline-block;
+	max-width: 79%;
+	text-align: center;
+background: linear-gradient(0deg, rgba(4,30,43,1) 20%, rgba(185,201,200,1) 61%);
+	border: 5px solid lightgray;
+	box-shadow: 0 4px 8px 0 rgba(246,144,0,0.72), 0 6px 20px 0 rgba(1246,198,36,0.64);
+}
+
+.pr img{ padding: 10px; }
+
+.imgicon img{	
+	width: 35%;
+	height: 15vh;
+	border: 5px solid navajowhite;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50%;
+	border-color: honeydew;
+}
+
+
+.imgicon h1{ align-content: center;	font-family: 'Days One', sans-serif; margin-top: 10px; padding-top: 10px;}
+.imgicon h3{ align-content: center;	font-family: 'Teko',sans-serif; margin-bottom: 20px;	}
+
+/*skills*/
+
+.sk{
+
+	color: #000;
+	width: 100%;
+	height: auto;
+	background: 
+				url("C:/Users/V/Documents/BATCH176/Capstone/img/vector2.jpg") center no-repeat,
+				linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95));
+				
+	background-size: cover;
+	position: relative;
+	font-family: 'Cormorant Garamond', serif;
+	text-shadow: 2px 2px 4px #c3dbe7;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50%;
+}
+
+.contact,
+{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
+				url("C:/Users/V/Documents/BATCH176/Capstone/img/logo.png") center no-repeat;
+	background-size: cover;
+	position: relative;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: floralwhite;
+}
+
+
+.sub{
+	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95));
+	color: antiquewhite;
+}
