@@ -75,7 +75,7 @@
 	width: 100%;
 	height: auto;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("./img/17109_1.jpg") center no-repeat;
+				url("https://raw.githubusercontent.com/Co-deck/My_Portfolio/master/img/17109_1.jpg") center no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -96,12 +96,11 @@
 }
 
 .pr{
-	padding: 10px;
 	font-family: 'Cormorant Garamond', serif;
 	display: inline-block;
 	max-width: 79%;
 	text-align: center;
-background: linear-gradient(0deg, rgba(4,30,43,1) 20%, rgba(185,201,200,1) 61%);
+	background: linear-gradient(0deg, rgba(4,30,43,1) 20%, rgba(185,201,200,1) 61%);
 	border: 5px solid lightgray;
 	box-shadow: 0 4px 8px 0 rgba(246,144,0,0.72), 0 6px 20px 0 rgba(1246,198,36,0.64);
 }
