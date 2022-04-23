@@ -180,11 +180,12 @@ transform: translate(-50%,-45%);
   width: 100%;  
   height: 55%;
   overflow-x: hidden;
-  scroll-behavior:a;
+  overflow-y: scroll;
   border: none;
   }
 
-}
+
+
 
  /*about*/
 
