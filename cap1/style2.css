@@ -124,13 +124,11 @@
 /*skills*/
 
 .sk{
-
-	color: #000;
 	background: #ebe5d9;
 	font-family: 'Cormorant Garamond', serif;
-	text-shadow: 2px 2px 4px ;
+  	color: ghostwhite;
+  	text-shadow: 2px 2px 4px #000000;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 50%;
 }
 
 .contact,
