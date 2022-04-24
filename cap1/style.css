@@ -32,7 +32,7 @@ header{
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("./img/17109_1.jpg") center no-repeat;
+				url("https://raw.githubusercontent.com/Co-deck/My_Portfolio/master/img/17109_1.jpg") center no-repeat;
 	background-size: cover;
 	position: relative;
 	font-family: 'Cormorant Garamond', serif;
@@ -172,28 +172,13 @@ transform: translate(-50%,-45%);
 }
 
 
-/*frame*/
-
-.frame-area{
-  padding: 10px;
-  display: inline-flex;
-  width: 100%;  
-  height: 55%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  border: none;
-  }
-
-
-
-
  /*about*/
 
 .about{
 	align-self: center;
 	width: 100%;
 	height: auto;
-	background: url("./img/bgme.png") center no-repeat,
+	background: url("https://github.com/Co-deck/My_Portfolio/blob/master/img/bgme.png") center no-repeat,
 				linear-gradient(rgba(245,245,245,.95), rgba(245,245,245,.95));
 				
 	background-size: cover;

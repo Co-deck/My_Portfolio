@@ -71,6 +71,8 @@
  /*projects*/
 
 .project{
+
+	padding: 20px;
 	color: #c69963;
 	width: 100%;
 	height: auto;
@@ -89,23 +91,20 @@
 	font-family: Arvo;
 }
 
-.project section {
-	align-items: center;
-	margin: auto;
-
-}
 
 .pr{
+	
+  	justify-content: center;
+  	align-items: center;
 	font-family: 'Cormorant Garamond', serif;
-	display: inline-block;
-	max-width: 79%;
+	max-width: 90%;
 	text-align: center;
 	background: linear-gradient(0deg, rgba(4,30,43,1) 20%, rgba(185,201,200,1) 61%);
 	border: 5px solid lightgray;
 	box-shadow: 0 4px 8px 0 rgba(246,144,0,0.72), 0 6px 20px 0 rgba(1246,198,36,0.64);
 }
 
-.pr img{ padding: 10px; }
+.pr img{ padding: 15px; }
 
 .imgicon img{	
 	width: 35%;
@@ -128,8 +127,6 @@
 	width: 100%;
 	height: auto;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("./img/vector2.jpg") center no-repeat,
-				
 	background-size: cover;
 	position: relative;
 	font-family: 'Cormorant Garamond', serif;
@@ -144,7 +141,7 @@
 	width: 100%;
 	height: auto;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("./img/logo.png") center no-repeat;
+				url("https://github.com/Co-deck/My_Portfolio/blob/master/img/logo.png") center no-repeat;
 	background-size: cover;
 	position: relative;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
