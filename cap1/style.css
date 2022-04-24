@@ -12,9 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
 
 /*use https://cssgradient.io/*/
-body{
+/*body{
 	overflow-x: hidden;
-}
+}*/
 /**/
 
 
@@ -29,7 +29,7 @@ header{
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("./img/171091.jpg") center no-repeat;
+				url("../img/171091.jpg") center no-repeat;
 	background-size: cover;
 	position: relative;
 	font-family: 'Cormorant Garamond', serif;
@@ -175,7 +175,7 @@ transform: translate(-50%,-45%);
 	align-self: center;
 	width: 100%;
 	height: auto;
-	background: url("https://github.com/Co-deck/My_Portfolio/blob/master/img/bgme.png") center no-repeat,
+	background: url("../img/bgme.png") center no-repeat,
 				linear-gradient(rgba(245,245,245,.95), rgba(245,245,245,.95));
 				
 	background-size: cover;

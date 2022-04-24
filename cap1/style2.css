@@ -41,6 +41,7 @@
 */
 
 .footer-info img{
+	justify-content: center;
 	margin-top: 20px;
 	border-radius: 50%;
 	border: 5px antiquewhite;
@@ -73,7 +74,7 @@
 .project{
 
 	padding: 20px;
-	color: #c69963;
+	color: black;
 	width: 100%;
 	height: auto;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
@@ -141,7 +142,7 @@
 	width: 100%;
 	height: auto;
 	background: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)),
-				url("https://github.com/Co-deck/My_Portfolio/blob/master/img/logo.png") center no-repeat;
+				url("../img/logo.png") center no-repeat;
 	background-size: cover;
 	position: relative;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
